@@ -24,7 +24,7 @@ public class loginTest {
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.xpath(".//*[@id='email']")).sendKeys("pratijapavitwar");
 		driver.findElement(By.xpath(".//*[@id='pass']")).sendKeys("12345");
-		//driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
+		driver.findElement(By.xpath(".//*[@id='loginbutton']")).click();
 	}
 	
 	@AfterTest 
